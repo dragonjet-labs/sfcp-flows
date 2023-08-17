@@ -28,5 +28,6 @@ jobs:
         run: |
           git config --global user.name 'Spriggit'
           git config --global user.email 'sample@jetri.co'
-          git commit -am "${{ github.event.inputs.message }}"
+          git add .
+          git commit -m "${{ github.event.inputs.message }}"
           git push
