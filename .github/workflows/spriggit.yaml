@@ -21,12 +21,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Create Branch
-        run: git branch ${{ github.event.inputs.message }}
+        run: git branch ${{ github.event.inputs.branchname }}
       - name: Run Spriggit
         run: node ./.github/spriggit/spriggit.js "${{ github.event.inputs.espfile }}"
       - name: Commit and Push
         run: |
           git config --global user.name 'Spriggit'
           git config --global user.email 'sample@jetri.co'
-          git commit -am "${{ github.event.inputs.branchname }}"
+          git commit -am "${{ github.event.inputs.message }}"
           git push
