@@ -1,0 +1,30 @@
+name: spriggit
+on:
+  workflow_dispatch:
+    inputs:
+      branchname:
+        description: 'Name of the new branch'
+        required: true
+      message:
+        description: 'Message for the commit'
+        required: true
+        default: 'Auto-converted from ESP/ESM file'
+      espfile:
+        description: 'Source ESP/ESM File'
+        required: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Create Branch
+        run: git branch ${branchname}
+      - name: Run Spriggit
+        run: node ./.github/spriggit/spriggit.js
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Spriggit'
+          git config --global user.email 'sample@jetri.co'
+          git commit -am ${message}
+          git push
