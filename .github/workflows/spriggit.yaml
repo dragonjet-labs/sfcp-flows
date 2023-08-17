@@ -5,6 +5,7 @@ on:
       branchname:
         description: 'Name of the new branch'
         required: true
+        default: 'fix/'
       message:
         description: 'Message for the commit'
         required: true
@@ -12,6 +13,7 @@ on:
       espfile:
         description: 'Source ESP/ESM File'
         required: true
+        default: 'https://'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,12 +21,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Create Branch
-        run: git branch ${branchname}
+        run: git branch ${{ github.event.inputs.message }}
       - name: Run Spriggit
-        run: node ./.github/spriggit/spriggit.js
+        run: node ./.github/spriggit/spriggit.js "${{ github.event.inputs.espfile }}"
       - name: Commit and Push
         run: |
           git config --global user.name 'Spriggit'
           git config --global user.email 'sample@jetri.co'
-          git commit -am ${message}
+          git commit -am "${{ github.event.inputs.branchname }}"
           git push
