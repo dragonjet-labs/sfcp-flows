@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Create Branch
-        run: git branch ${{ github.event.inputs.branchname }}
+        run: git branch ${{ github.event.inputs.branchname }} && git checkout ${{ github.event.inputs.branchname }}
       - name: Run Spriggit
         run: node ./.github/spriggit/spriggit.js "${{ github.event.inputs.espfile }}"
       - name: Commit and Push
