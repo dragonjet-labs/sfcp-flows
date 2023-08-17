@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Create Branch
-        run: git branch ${{ github.event.inputs.branchname }} && git checkout ${{ github.event.inputs.branchname }}
+        run: git checkout -b ${{ github.event.inputs.branchname }}
       - name: Run Spriggit
         run: node ./.github/spriggit/spriggit.js "${{ github.event.inputs.espfile }}"
       - name: Commit and Push
@@ -30,4 +30,4 @@ jobs:
           git config --global user.email 'sample@jetri.co'
           git add .
           git commit -m "${{ github.event.inputs.message }}"
-          git push
+          git push -u origin ${{ github.event.inputs.branchname }}
