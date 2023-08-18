@@ -1,0 +1,144 @@
+FormKey: 0012D7:LeafAya.esp
+EditorID: 11AyaFollower
+ObjectBounds:
+  First: -22, -14, 0
+  Second: 22, 14, 128
+Configuration:
+  Flags:
+  - Female
+  - AutoCalcStats
+  - Unique
+  Level:
+    MutagenObjectType: PcLevelMult
+    LevelMult: 1
+  CalcMinLevel: 1
+  CalcMaxLevel: 90
+  SpeedMultiplier: 100
+  DispositionBase: 35
+  HealthOffset: 50
+Factions:
+- Faction: 05C84D:Skyrim.esm
+  Fluff: 0x000000
+- Faction: 05C84E:Skyrim.esm
+  Rank: -1
+  Fluff: 0x000000
+Voice: 01E282:Miqo'te Follower.esp
+Race: 000D73:LeafAya.esp
+AIData:
+  Aggression: Aggressive
+  Confidence: Foolhardy
+  EnergyLevel: 50
+  Assistance: HelpsFriendsAndAllies
+Class: 013176:Skyrim.esm
+Name:
+  TargetLanguage: English
+  Value: Ayaka
+ShortName:
+  TargetLanguage: English
+  Value: Ayaka
+PlayerSkills:
+  SkillValues:
+  - Key: OneHanded
+    Value: 70
+  - Key: TwoHanded
+    Value: 32
+  - Key: Archery
+    Value: 28
+  - Key: Block
+    Value: 33
+  - Key: Smithing
+    Value: 20
+  - Key: HeavyArmor
+    Value: 35
+  - Key: LightArmor
+    Value: 70
+  - Key: Pickpocket
+    Value: 15
+  - Key: Lockpicking
+    Value: 15
+  - Key: Sneak
+    Value: 60
+  - Key: Alchemy
+    Value: 15
+  - Key: Speech
+    Value: 20
+  - Key: Alteration
+    Value: 40
+  - Key: Conjuration
+    Value: 15
+  - Key: Destruction
+    Value: 40
+  - Key: Illusion
+    Value: 15
+  - Key: Restoration
+    Value: 60
+  - Key: Enchanting
+    Value: 15
+  SkillOffsets:
+  - Key: OneHanded
+    Value: 0
+  - Key: TwoHanded
+    Value: 0
+  - Key: Archery
+    Value: 0
+  - Key: Block
+    Value: 0
+  - Key: Smithing
+    Value: 0
+  - Key: HeavyArmor
+    Value: 0
+  - Key: LightArmor
+    Value: 0
+  - Key: Pickpocket
+    Value: 0
+  - Key: Lockpicking
+    Value: 0
+  - Key: Sneak
+    Value: 0
+  - Key: Alchemy
+    Value: 0
+  - Key: Speech
+    Value: 0
+  - Key: Alteration
+    Value: 0
+  - Key: Conjuration
+    Value: 0
+  - Key: Destruction
+    Value: 0
+  - Key: Illusion
+    Value: 0
+  - Key: Restoration
+    Value: 0
+  - Key: Enchanting
+    Value: 0
+  Health: 205
+  Magicka: 50
+  Stamina: 80
+  Unused: 65535
+  GearedUpWeapons: 1
+  Unused2: 0x000000
+HairColor: 0A042E:Skyrim.esm
+CombatStyle: 03DECE:Skyrim.esm
+NAM5: 255
+Height: 1
+SoundLevel: Normal
+DefaultOutfit: 0012D9:LeafAya.esp
+HeadTexture: 000D64:LeafAya.esp
+TextureLighting: '#00DDDDDD'
+FaceMorph:
+  NoseLongVsShort: 0.1
+  JawUpVsDown: -0.3
+  CheeksUpVsDown: 0.1
+  CheeksForwardVsBack: 0.3
+  EyesUpVsDown: -0.3
+  EyesInVsOut: -0.1
+  BrowsUpVsDown: -0.5
+  BrowsInVsOut: 0.5
+  BrowsForwardVsBack: 0.2
+  LipsUpVsDown: -0.1
+  LipsInVsOut: 0.2
+  ChinNarrowVsWide: 0.2
+  ChinUpVsDown: -0.2
+  ChinUnderbiteVsOverbite: -0.7
+  EyesForwardVsBack: -0.2
+  Unknown: 3.4028235E+38
