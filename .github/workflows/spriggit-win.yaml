@@ -1,4 +1,4 @@
-name: spriggit
+name: spriggit-win
 on:
   workflow_dispatch:
     inputs:
