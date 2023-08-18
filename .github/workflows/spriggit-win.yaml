@@ -25,7 +25,7 @@ jobs:
       - name: Download Source ESP
         run: iwr -outf ./source.esp "${{ github.event.inputs.espfile }}"
       - name: Run Spriggit
-        run: ./.github/spriggit/Spriggit.CLI.exe serialize --InputPath "./source.esp" --OutputPath "./Data" --GameRelease SkyrimSE --PackageName Spriggit.Yaml
+        run: ./.github/spriggit/Spriggit.CLI.exe serialize --InputPath "./source.esp" --OutputPath "./Data" --GameRelease SkyrimSE --PackageName Spriggit.Yaml.Skyrim
       - name: Commit and Push
         run: |
           git config --global user.name 'Spriggit'
