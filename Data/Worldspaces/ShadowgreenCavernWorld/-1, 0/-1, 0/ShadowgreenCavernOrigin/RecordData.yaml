@@ -1,0 +1,14 @@
+FormKey: 02A9F1:Skyrim.esm
+EditorID: ShadowgreenCavernOrigin
+Version2: 4
+Flags:
+- HasWater
+Grid:
+  Point: -1, 0
+  Flags: -1545395200
+WaterHeight: -9999
+AcousticSpace: 01989F:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

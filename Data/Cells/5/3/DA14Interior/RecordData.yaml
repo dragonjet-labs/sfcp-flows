@@ -1,0 +1,46 @@
+FormKey: 03D62B:Skyrim.esm
+EditorID: DA14Interior
+Version2: 9
+Name:
+  TargetLanguage: English
+  Value: Misty Grove
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00525252'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#0011110B'
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#000B0A0A'
+    DirectionalXMinus: '#00080A09'
+    DirectionalYPlus: '#000A0A0A'
+    DirectionalYMinus: '#000A090A'
+    DirectionalZPlus: '#00040404'
+    DirectionalZMinus: '#000F0F0F'
+    Specular: '#0011110B'
+    Scale: 1
+  FogFarColor: '#0011110B'
+  FogMax: 1
+  LightFadeBegin: 3000
+  LightFadeEnd: 40000
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 0B9E23:Skyrim.esm
+WaterHeight: 0
+AcousticSpace: 0FECFB:Skyrim.esm
+Music: 0622AB:Skyrim.esm
+ImageSpace: 0EB136:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

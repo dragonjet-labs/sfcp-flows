@@ -1,0 +1,13 @@
+FormKey: 027951:Skyrim.esm
+EditorID: xWilderness
+Flags:
+- HasWater
+Grid:
+  Point: 49, -10
+  Flags: -1545395712
+WaterHeight: 3.4028235E+38
+Regions:
+- 104AB3:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

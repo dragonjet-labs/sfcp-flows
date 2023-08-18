@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 10AF9E:Skyrim.esm
+Base: 022201:Skyrim.esm
+LocationReference: 0D5673:Skyrim.esm
+Placement:
+  Position: -55923.887, 79576.41, -13657.215
+  Rotation: 0, 0, 0.35949418

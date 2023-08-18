@@ -1,0 +1,17 @@
+FormKey: 034247:Skyrim.esm
+EditorID: BluePalaceWingStart
+Version2: 5
+Flags:
+- HasWater
+Grid:
+  Flags: -1545395200
+WaterHeight: -2.1474836E+09
+Regions:
+- 10593F:Skyrim.esm
+- 10593E:Skyrim.esm
+- 105940:Skyrim.esm
+- 0A9783:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

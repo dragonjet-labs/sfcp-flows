@@ -1,0 +1,50 @@
+FormKey: 01525D:Skyrim.esm
+EditorID: HoneystrandGrove01
+Version2: 15
+Name:
+  TargetLanguage: English
+  Value: Honeystrand Cave
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00565B4A'
+  FogNear: 340
+  FogFar: 14000
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00000000'
+    DirectionalXMinus: '#00000000'
+    DirectionalYPlus: '#00000000'
+    DirectionalYMinus: '#00000000'
+    DirectionalZPlus: '#00000000'
+    DirectionalZMinus: '#00000000'
+    Specular: '#00B0DCF7'
+    Scale: 1
+  FogFarColor: '#00606653'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 094E50:Skyrim.esm
+WaterHeight: 0
+Location: 019199:Skyrim.esm
+SkyAndWeatherFromRegion: 0C5857:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC39:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 0A2687:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

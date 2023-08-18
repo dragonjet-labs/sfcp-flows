@@ -1,0 +1,48 @@
+FormKey: 00362A:Dawnguard.esm
+EditorID: testFalmer
+Version2: 3
+Name:
+  TargetLanguage: English
+  Value: Its baaaaaack
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#0062EE8F'
+  DirectionalColor: '#003F4749'
+  FogNearColor: '#009BA28C'
+  FogNear: 1400
+  FogFar: 9000
+  FogClipDistance: 9000
+  FogPower: 0.7
+  AmbientColors:
+    DirectionalXPlus: '#002D291F'
+    DirectionalXMinus: '#0024291C'
+    DirectionalYPlus: '#00292A1E'
+    DirectionalYMinus: '#0029271E'
+    DirectionalZPlus: '#0013130D'
+    DirectionalZMinus: '#003E3E2E'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00949B84'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+LightingTemplate: 094E50:Skyrim.esm
+WaterHeight: 0
+SkyAndWeatherFromRegion: 0C5858:Skyrim.esm
+AcousticSpace: 01989F:Skyrim.esm
+EncounterZone: 03EC6E:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+ImageSpace: 09F363:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

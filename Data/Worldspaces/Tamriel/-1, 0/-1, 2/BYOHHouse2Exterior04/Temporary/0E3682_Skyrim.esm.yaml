@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 0E3682:Skyrim.esm
+Version2: 1
+Base: 022201:Skyrim.esm
+LocationReference: 005209:HearthFires.esm
+Placement:
+  Position: -26548.387, 96429.93, -13470.733
+  Rotation: 0, 0, 0.43633232

@@ -1,0 +1,14 @@
+FormKey: 021EF9:Skyrim.esm
+EditorID: BlindCliffCaveStart
+Version2: 3
+Flags:
+- HasWater
+Grid:
+  Point: -36, 5
+  Flags: -1545395712
+WaterHeight: -256
+AcousticSpace: 02B961:Skyrim.esm
+Music: 094BDD:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

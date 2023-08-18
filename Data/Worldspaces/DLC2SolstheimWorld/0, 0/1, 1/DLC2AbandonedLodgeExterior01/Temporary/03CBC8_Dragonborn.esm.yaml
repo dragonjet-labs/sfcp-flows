@@ -1,0 +1,8 @@
+MutagenObjectType: PlacedObject
+FormKey: 03CBC8:Dragonborn.esm
+Version2: 1
+Base: 022201:Skyrim.esm
+LocationReference: 0142C0:Dragonborn.esm
+Placement:
+  Position: 35928.4, 52481.305, 5969.652
+  Rotation: 0, 0, 4.5727625

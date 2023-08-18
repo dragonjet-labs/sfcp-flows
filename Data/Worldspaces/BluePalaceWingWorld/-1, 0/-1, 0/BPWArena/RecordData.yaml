@@ -1,0 +1,16 @@
+FormKey: 09B23D:Skyrim.esm
+EditorID: BPWArena
+Version2: 6
+Flags:
+- HasWater
+Grid:
+  Point: -1, 1
+  Flags: -1545383680
+WaterHeight: 3.4028235E+38
+Regions:
+- 105940:Skyrim.esm
+- 0A9783:Skyrim.esm
+Music: 02D4C2:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

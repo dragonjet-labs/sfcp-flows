@@ -1,0 +1,15 @@
+FormKey: 0356A9:Skyrim.esm
+EditorID: SkyHavenTempleEntrance
+Flags:
+- HasWater
+Grid:
+  Point: 31, -1
+  Flags: -1545395712
+WaterHeight: -2.1474836E+09
+Regions:
+- 106631:Skyrim.esm
+Location: 01925F:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

@@ -1,0 +1,18 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.1.0
+ModKey: source.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Stats:
+    NumRecords: 5263
+    NextFormID: 417178
+  Author: Wanderhall
+  Description: Butterflies Land True - Version 1.0
+  MasterReferences:
+  - Master: Skyrim.esm
+  - Master: Update.esm
+  - Master: Dawnguard.esm
+  - Master: HearthFires.esm
+  - Master: Dragonborn.esm
+  INTV: 1

@@ -1,0 +1,12 @@
+MutagenObjectType: PlacedObject
+FormKey: 10676F:Skyrim.esm
+Version2: 2
+Base: 022201:Skyrim.esm
+EnableParent:
+  Reference: 0034FD:Dawnguard.esm
+  Flags:
+  - SetEnableStateToOppositeOfParent
+  Unknown: 0x000000
+Placement:
+  Position: -44658.996, -5781.7275, -6635.66
+  Rotation: 0, -0, 5.74587

@@ -1,0 +1,50 @@
+FormKey: 03B698:Skyrim.esm
+EditorID: RiftenRatway01
+Version2: 13
+Name:
+  TargetLanguage: English
+  Value: The Ratway
+Flags:
+- IsInteriorCell
+- HasWater
+- ShowSky
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  FogFar: 2500
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#002C2418'
+    DirectionalXMinus: '#00232415'
+    DirectionalYPlus: '#00282517'
+    DirectionalYMinus: '#00282217'
+    DirectionalZPlus: '#0013110A'
+    DirectionalZMinus: '#003C3623'
+    Specular: '#00000000'
+    Scale: 1
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - DirectionalRotation
+  - DirectionalFade
+  - ClipDistance
+  - FogPower
+  - FogMax
+LightingTemplate: 05C734:Skyrim.esm
+WaterHeight: 0
+Location: 03B871:Skyrim.esm
+SkyAndWeatherFromRegion: 07042E:Skyrim.esm
+AcousticSpace: 04075D:Skyrim.esm
+EncounterZone: 09FBB9:Skyrim.esm
+Music: 05615B:Skyrim.esm
+ImageSpace: 05C73D:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1

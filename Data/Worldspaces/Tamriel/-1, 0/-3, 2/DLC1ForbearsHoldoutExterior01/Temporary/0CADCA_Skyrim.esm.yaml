@@ -1,0 +1,7 @@
+MutagenObjectType: PlacedObject
+FormKey: 0CADCA:Skyrim.esm
+Base: 022201:Skyrim.esm
+LocationReference: 00357F:Dawnguard.esm
+Placement:
+  Position: -85845.49, 68187.945, -11465.6
+  Rotation: 0, -0, 2.2484884

@@ -1,0 +1,16 @@
+FormKey: 0356A6:Skyrim.esm
+EditorID: KarthspirePlateStart
+Version2: 6
+Flags:
+- HasWater
+Grid:
+  Point: 32, -1
+  Flags: -1545395712
+WaterHeight: 3.4028235E+38
+Regions:
+- 106631:Skyrim.esm
+Location: 01925F:Skyrim.esm
+Music: 01BA72:Skyrim.esm
+Timestamp: 10051
+TemporaryTimestamp: 10051
+TemporaryUnknownGroupData: 1
