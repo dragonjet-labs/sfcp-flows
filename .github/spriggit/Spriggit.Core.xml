@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spriggit.Core</name>
+    </assembly>
+    <members>
+        <member name="P:ThisAssembly.Git.IsDirty">
+            <summary>
+            Gets whether the current repository is dirty.
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirtyString">
+            <summary>
+            => @""
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.RepositoryUrl">
+            <summary>
+            => @"https://github.com/Mutagen-Modding/Spriggit"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Branch">
+            <summary>
+            => @"HEAD"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commit">
+            <summary>
+            => @"eab6601"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Sha">
+            <summary>
+            => @"eab660172dc07566e3a172f1d097a864f462fad8"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.CommitDate">
+            <summary>
+            => @"2023-08-18T01:01:50-05:00"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commits">
+            <summary>
+            => @"0"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Tag">
+            <summary>
+            => @"0.2"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseTag">
+            <summary>
+            => @"0.2"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Major">
+            <summary>
+            => @"0"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Minor">
+            <summary>
+            => @"2"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Patch">
+            <summary>
+            => @"0"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Major">
+            <summary>
+            => @"0"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Minor">
+            <summary>
+            => @"2"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Patch">
+            <summary>
+            => @"0"
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Label">
+            <summary>
+            => @""
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.DashLabel">
+            <summary>
+            => @""
+            </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Source">
+            <summary>
+            => @"Tag"
+            </summary>
+        </member>
+    </members>
+</doc>
