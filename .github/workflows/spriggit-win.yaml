@@ -5,15 +5,15 @@ on:
       branchname:
         description: 'Name of the new branch'
         required: true
-        default: 'fix/'
+        default: 'fix/test'
       message:
         description: 'Message for the commit'
         required: true
-        default: 'Auto-converted from ESP/ESM file'
+        default: 'Example fix'
       espfile:
         description: 'Source ESP/ESM File'
         required: true
-        default: 'https://'
+        default: https://vtubertools.sfo3.digitaloceanspaces.com/LeafAyaJPV.esp'
 jobs:
   build:
     runs-on: windows-latest
