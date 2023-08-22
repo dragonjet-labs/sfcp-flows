@@ -1,0 +1,15 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.1.0
+ModKey: source.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - LightMaster
+  Stats:
+    NumRecords: 2
+  Author: ''
+  MasterReferences:
+  - Master: Skyrim.esm
+  - Master: LeafLumi.esp
+  - Master: Miqo'te Follower.esp
