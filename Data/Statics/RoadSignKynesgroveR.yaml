@@ -1,0 +1,10 @@
+FormKey: 0074F3:source.esp
+EditorID: RoadSignKynesgroveR
+ObjectBounds:
+  First: -31, -46, -37
+  Second: 42, 27, 37
+Model:
+  File: Arthmoor\Point The Way\RoadSignKynesgroveR.nif
+  Data: 0x020000000000000000000000
+MaxAngle: 90
+Unused: 0x000000

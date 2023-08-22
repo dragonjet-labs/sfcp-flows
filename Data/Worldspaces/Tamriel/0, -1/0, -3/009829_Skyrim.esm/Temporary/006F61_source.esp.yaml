@@ -1,0 +1,12 @@
+MutagenObjectType: PlacedObject
+FormKey: 006F61:source.esp
+Base: 000021:Skyrim.esm
+Primitive:
+  Bounds: 172.79688, 28.828125, 161.7324
+  Color: '#00FFFF00'
+  Unknown: 0.15
+  Type: Box
+CollisionLayer: 49
+Placement:
+  Position: 21719.57, -78970.6, 8754.937
+  Rotation: 0, -0, 5.8831863

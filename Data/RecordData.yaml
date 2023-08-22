@@ -1,0 +1,25 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.1.0
+ModKey: source.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Stats:
+    NumRecords: 570
+    NextFormID: 117030
+  Author: Arthmoor
+  Description: >-
+    Adds extra road signs around Skyrim to help point your way and allow you to travel without needing to look at your map as often.
+
+
+    Version 2.0.6
+
+
+    Requires Skyrim Special Edition 1.5.97 or greater.
+  MasterReferences:
+  - Master: Skyrim.esm
+  - Master: Update.esm
+  - Master: Dawnguard.esm
+  - Master: HearthFires.esm
+  - Master: Dragonborn.esm
+  INTV: 1

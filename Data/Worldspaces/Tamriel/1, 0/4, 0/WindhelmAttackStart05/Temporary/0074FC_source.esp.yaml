@@ -1,0 +1,6 @@
+MutagenObjectType: PlacedObject
+FormKey: 0074FC:source.esp
+Base: 0074F3:source.esp
+Placement:
+  Position: 136981.97, 23710.656, -12574.249
+  Rotation: 0, -0, 1.4476407
