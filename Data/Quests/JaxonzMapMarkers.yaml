@@ -1,0 +1,360 @@
+FormKey: 000D63:source.esp
+EditorID: JaxonzMapMarkers
+VirtualMachineAdapter:
+  Scripts:
+  - Name: JaxonzSKSEVersionCheckScript
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: iSkyUIRequired
+      Data: 1
+    - MutagenObjectType: ScriptStringProperty
+      Name: strModName
+      Data: Jaxonz Map Markers
+  - Name: JaxonzMapMarkersMCM
+    Properties:
+    - MutagenObjectType: ScriptStringProperty
+      Name: ModName
+      Data: Jaxonz Map Markers
+    - MutagenObjectType: ScriptObjectProperty
+      Name: scrQuest
+      Object: 000D63:source.esp
+    - MutagenObjectType: ScriptStringListProperty
+      Name: sMarkerStates
+      Data:
+      - Show
+      - 'Hide '
+      - Delete
+      - Travel To
+  - Name: JaxonzMapMarkersQuest
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: frmMarker
+      Object: 00285B:source.esp
+    - MutagenObjectType: ScriptBoolProperty
+      Name: bEnabled
+      Data: True
+    - MutagenObjectType: ScriptIntProperty
+      Name: iHotkey
+      Data: 13
+  - Name: UILIB_1
+  FileName: ''
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 000D63:source.esp
+      Alias: 11
+    Scripts:
+    - Name: SKI_PlayerLoadGameAlias
+Name:
+  TargetLanguage: English
+  Value: Jaxonz Map Markers
+Flags:
+- StartGameEnabled
+- 0x10
+- RunOnce
+Type: MainQuest
+Stages:
+- Index: 10
+  Flags:
+  - StartUpStage
+  LogEntries:
+  - Flags: []
+    Entry:
+      TargetLanguage: English
+      Value: Markers you create using the default hotkey appear in the objectives list below. Use the MCM menu to manage markers, or recast at an existing mark to remove it.
+Objectives:
+- Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias=refAlias000>
+  Targets:
+  - AliasID: 1
+- Index: 1
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias001>
+  Targets:
+  - AliasID: 2
+- Index: 2
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias002>
+  Targets:
+  - AliasID: 3
+- Index: 3
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias003>
+  Targets:
+  - AliasID: 4
+- Index: 4
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias004>
+  Targets:
+  - AliasID: 5
+- Index: 5
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias005>
+  Targets:
+  - AliasID: 6
+- Index: 6
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias006>
+  Targets:
+  - AliasID: 7
+- Index: 7
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias007>
+  Targets:
+  - AliasID: 8
+- Index: 8
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias008>
+  Targets:
+  - AliasID: 9
+- Index: 9
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias009>
+  Targets:
+  - AliasID: 10
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias010>
+  Targets:
+  - AliasID: 12
+- Index: 11
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias011>
+  Targets:
+  - AliasID: 13
+- Index: 12
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias012>
+  Targets:
+  - AliasID: 14
+- Index: 13
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias013>
+  Targets:
+  - AliasID: 15
+- Index: 14
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias014>
+  Targets:
+  - AliasID: 16
+- Index: 15
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias015>
+  Targets:
+  - AliasID: 17
+- Index: 16
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias016>
+  Targets:
+  - AliasID: 18
+- Index: 17
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias017>
+  Targets:
+  - AliasID: 19
+- Index: 18
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias018>
+  Targets:
+  - AliasID: 20
+- Index: 19
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: <Alias.DisplayName=refAlias019>
+  Targets:
+  - AliasID: 21
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: refLoc
+- Index: 21
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: ''
+Aliases:
+- ID: 11
+  Name: refPlayerAlias
+  Flags: []
+  ForcedReference: 000014:Skyrim.esm
+  VoiceTypes: Null
+- ID: 1
+  Name: refAlias000
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 2
+  Name: refAlias001
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 3
+  Name: refAlias002
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 4
+  Name: refAlias003
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 5
+  Name: refAlias004
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 6
+  Name: refAlias005
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 7
+  Name: refAlias006
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 8
+  Name: refAlias007
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 9
+  Name: refAlias008
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 10
+  Name: refAlias009
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 12
+  Name: refAlias010
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 13
+  Name: refAlias011
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 14
+  Name: refAlias012
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 15
+  Name: refAlias013
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 16
+  Name: refAlias014
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 17
+  Name: refAlias015
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 18
+  Name: refAlias016
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 19
+  Name: refAlias017
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 20
+  Name: refAlias018
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null
+- ID: 21
+  Name: refAlias019
+  Flags:
+  - Optional
+  - AllowDead
+  - StoresText
+  VoiceTypes: Null

@@ -1,0 +1,22 @@
+FormKey: 00285B:source.esp
+EditorID: JaxonzMapMarkersLocationObject
+VirtualMachineAdapter:
+  Scripts:
+  - Name: JaxonzMapMarkerLocationScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: qstMapMarker
+      Object: 000D63:source.esp
+  - Name: UILIB_1
+Name:
+  TargetLanguage: English
+  Value: Location Marker
+Model:
+  File: Clutter\Books\Note03.nif
+  Data: 0x020000000000000000000000
+MarkerColor: '#00CC4C33'
+ActivateTextOverride:
+  TargetLanguage: English
+  Value: Remove
+Flags: []
+InteractionKeyword: 099306:Skyrim.esm
