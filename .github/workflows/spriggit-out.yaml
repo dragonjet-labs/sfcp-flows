@@ -13,8 +13,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Spriggit
         run: ./.github/spriggit/Spriggit.CLI.exe deserialize --InputPath "${{ github.workspace }}\src\plugin" --OutputPath "${{ github.workspace }}\latest.esp" --PackageName Spriggit.Yaml.Skyrim
-      - uses: ncipollo/release-action@v1
-        with:
-          name: "latest"
-          allowUpdates: true
-          artifacts: "latest.esp"
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Spriggit'
+          git config --global user.email 'sample@jetri.co'
+          git add .
+          git commit -m "Update latest.esp"
+          git push -u origin main
