@@ -1,6 +1,6 @@
 SpriggitSource:
   PackageName: Spriggit.Yaml.Skyrim
-  Version: 0.1.1
+  Version: 0.1.5
 ModKey: source.esp
 GameRelease: SkyrimSE
 ModHeader:
