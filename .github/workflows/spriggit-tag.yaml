@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run Spriggit
-        run: ./.github/spriggit/Spriggit.CLI.exe deserialize --InputPath "${{ github.workspace }}\src\plugin" --OutputPath "${{ github.workspace }}\latest.esp" --GameRelease SkyrimSE --PackageName Spriggit.Yaml.Skyrim
+        run: ./.github/spriggit/Spriggit.CLI.exe deserialize --InputPath "${{ github.workspace }}\src\plugin" --OutputPath "${{ github.workspace }}\latest.esp" --PackageName Spriggit.Yaml.Skyrim
       - uses: ncipollo/release-action@v1
         with:
           allowUpdates: true
