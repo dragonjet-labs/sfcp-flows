@@ -1,0 +1,15 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.1.0
+ModKey: source.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Stats:
+    NumRecords: 4
+    NextFormID: 22750
+  Author: Jaxonz
+  Description: Create map markers for any person, place, or thing.
+  MasterReferences:
+  - Master: Skyrim.esm
+  - Master: Update.esm
+  INTV: 1
