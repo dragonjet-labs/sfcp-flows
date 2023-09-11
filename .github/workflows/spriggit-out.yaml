@@ -1,0 +1,20 @@
+name: spriggit-out
+on:
+  push:
+    branches: [ main ]
+    paths:
+    - "src/plugin/**/*"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run Spriggit
+        run: ./.github/spriggit/Spriggit.CLI.exe deserialize --InputPath "${{ github.workspace }}\src\plugin" --OutputPath "${{ github.workspace }}\latest.esp" --GameRelease SkyrimSE --PackageName Spriggit.Yaml.Skyrim
+      - uses: ncipollo/release-action@v1
+        with:
+          name: "latest"
+          allowUpdates: true
+          artifacts: "latest.esp"
