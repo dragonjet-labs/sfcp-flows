@@ -1,7 +1,8 @@
 name: spriggit-out
 on:
   push:
-    tags: *
+    tags:
+    - "*"
     paths:
     - "src/plugin/**/*"
   workflow_dispatch:
